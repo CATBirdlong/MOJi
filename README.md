@@ -1,4 +1,4 @@
-# MOJi 9.1.1 Local Modification Records (dev branch)
+# MOJi 9.1.1 Modification Records (dev branch)
 
 _PS: This branch only stores analysis scripts, patch generators, and reports._
 _It does not contain binary artifacts such as APKs or DEX files._
