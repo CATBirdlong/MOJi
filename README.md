@@ -26,7 +26,6 @@ Each path is listed once, with the purpose of that file or folder.
     <tr><td><code>patch/verify_patch.py</code></td><td>H5 patch verifier</td></tr>
     <tr><td><code>patch/frida_gate.js</code></td><td>Frida observation script for the gating flow</td></tr>
     <tr><td><code>REPORT_*.md</code></td><td>Stage reports; <code>REPORT_FINAL_2026-11-02.md</code> is the summary</td></tr>
-    <tr><td><code>UPLOAD_LIST.md</code></td><td>Tracked vs ignored files for this branch</td></tr>
   </tbody>
 </table>
 
