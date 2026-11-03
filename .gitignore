@@ -1,33 +1,85 @@
-# Gradle files
+# ============ Android ============
 .gradle/
-build/
-
-# Local configuration file (sdk path, etc)
 local.properties
-
-# Log/OS Files
 *.log
-
-# Android Studio generated files and folders
 captures/
 .externalNativeBuild/
 .cxx/
-*.apk
-output.json
-
-# IntelliJ
 *.iml
 .idea/
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
+google-services.json
+*.hprof
 
-# Keystore files
+# ============ Sensitive files ============
 *.jks
 *.keystore
+*.p12
+*.pem
+*REPORT*.md
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# ============ Large files / Binary artifacts ============
+*.apk
+*.idsig
+*.dex
+*.arsc
+*.pkl
+*.realm
+*.tgz
+*.zip
+*.gz
+*.tar
+*.so
+*.bin
+*.png
+*.jpg
+*.webp
 
-# Android Profiling
-*.hprof
+# ============ Build / Cache / Temporary ============
+build/
+work833/
+__pycache__/
+*.pyc
+*.pyo
+*.err
+*.out
+*.tmp
+*.temp
+*.bak
+~$*
+
+# ============ Derived data ============
+arsc.json
+axml_refs.json
+dex_hits.json
+orig.mjs
+check.mjs
+patch/index-cc95ce0f.js
+*.orig.dex
+# ============ Process exploration ============
+/q*.py
+/w*.py
+/dbg*.py
+/dex_*.py
+/h5_*.py
+/js1.py
+/verify*.py
+/patch_h5.py
+/patch_probe.py
+/trace.py
+/dump*.js
+/rea_*
+/targets.json
+/h5/
+/classes*.orig.dex
+/v51/find_num.py
+/v51/mk*.py
+/v51/probe*.py
+/v51/pack_v5*.py
+/v51/index-cc95ce0f.v55.js
+*REPORT*.md
+UPLOAD_LIST.md
+v51/strip_sig.py
+v51/make_release.py
